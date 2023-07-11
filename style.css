@@ -4,10 +4,16 @@ body {
     min-height: 100vh;
 }
 
+.container1, .container2, .container3, .container4{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .content{
     flex-grow: 1;
 }
 
+/*-----------------------CONTAINER 1-----------------------*/
 
 .header, .container1 {
     padding-left: 100px;
@@ -23,24 +29,37 @@ body {
     /*font-style: ;*/
 }
 
+.contain{
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 500px;
+}
+
 .contain h1, .contain p {
     margin: 0;
+    flex-shrink: 3;
+    flex-grow: 1;
 }
 
 .container1{
     display: flex;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    padding-top: 16px;
 }
 
 .placeholder{
     height: 150px;
-    width: 350px;
+    flex-basis: 600px;
     border-radius: 0.5cm;
     background-color: rgb(105, 160, 105);
+    flex-shrink: 1;
+    flex-grow: 0;
 }
 
 button{
@@ -50,13 +69,16 @@ button{
     border-radius: 0.2cm;
     width: 90px;
     height: 30px;
-    background-color: rgb(1, 202, 1);
+    color: white;
+    background-color: rgb(1, 73, 1);
     border: none;
+    margin-top: 10px;
 }
 
-a{
+a, .logo{
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 li{
@@ -72,13 +94,55 @@ ul{
     margin: 0;    
 }
 
-.container2 {
-    display: flex;
+/*-----------------------CONTAINER 2-----------------------*/
+
+.container2 h2{
+    text-align: center;
 }
 
-.container3{
+.information {
     display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
 }
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 0.3cm;
+    background-color: rgb(105, 160, 105);
+    justify-content: center;
+}
+
+.info{
+    width: 150px;
+    align-items: center;
+}
+
+
+/*-----------------------CONTAINER 3-----------------------*/
+
+.container3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    width: 700px;
+}
+
+.quote-sauce{
+    text-align: right;
+}
+
+/*-----------------------CONTAINER 4-----------------------*/
 
 .container4{
     display: flex;
