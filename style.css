@@ -4,6 +4,10 @@ body {
     min-height: 100vh;
 }
 
+*{
+    margin: 0;
+    /*padding: 0;*/
+}
 
 /*----PAGE-DESIGN----*/
 
@@ -142,6 +146,7 @@ ul{
 
 .container2 h2{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .container2{
