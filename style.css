@@ -13,6 +13,7 @@ body {
 
 .container1{
     background-color: #783937;
+    color: black;
 }
 
 .container2{
@@ -203,7 +204,7 @@ ul{
 
 .quote{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: italic;
     color: #1F2937;
     width: 700px;
