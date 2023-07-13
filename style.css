@@ -137,7 +137,7 @@ li{
 
 ul{
     display: flex;
-    gap: 16px;
+    gap: 25px;
     padding: 0;
     margin: 0;    
 }
@@ -242,5 +242,5 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
